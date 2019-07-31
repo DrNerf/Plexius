@@ -8,6 +8,8 @@ function createWindow() {
         height: 720,
         frame: false,
         transparent: true,
+        icon: './assets/plex.ico',
+        title: 'Plexius',
         webPreferences: {
             nodeIntegration: true,
             webSecurity: false,
